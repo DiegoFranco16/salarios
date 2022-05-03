@@ -1,7 +1,7 @@
 package calculoSalarios
 import java.util.*
 
-fun definirRoles() {
+fun calcularSalario() {
     val gerente = Roles(idRol = 1, nombreRol = "Gerente", salarioHora = 200, horasTrabajoMes = 200, horasBonus = 0)
     val operador = Roles(idRol = 2, nombreRol = "Operador", salarioHora = 10, horasTrabajoMes = 230, horasBonus = 10)
     val contador = Roles(idRol = 3, nombreRol = "Contador", salarioHora = 50, horasTrabajoMes = 200, horasBonus = 0)
@@ -42,6 +42,5 @@ fun definirRoles() {
 
 
 fun main(){
-    definirRoles()
-
+    calcularSalario()
 }
